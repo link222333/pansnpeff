@@ -1,5 +1,6 @@
 # PanSnpEff: 泛基因组变异注释工具（支持 GFA 分支数统计）
-<img width="2048" height="2048" alt="介绍代码文件" src="https://github.com/user-attachments/assets/eda3779c-e28c-4add-9c71-4e926ddc2c6e" />
+<img width="1696" height="1515" alt="介绍代码文件" src="https://github.com/user-attachments/assets/d6f00e15-4456-4924-9c7b-f61a108f90d8" />
+
 
 A SnpEff-like variant annotation tool tailored for pan-genome analysis, supporting branch count statistics from GFA files and standard VCF output.
 # 项目简介
