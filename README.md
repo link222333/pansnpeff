@@ -56,7 +56,7 @@ pip install biopython
 |CODON_CHANGE	|String	|CDS 区域 SNV 的密码子变化（非 CDS 区域为 .）|
 |AA_CHANGE	|String	|CDS 区域 SNV 的氨基酸变化（非 CDS 区域为 .）|
 |BRANCH_COUNT	|Integer	|变异所在基因区域的分支数（反映泛基因组结构多样性）|
-|IMPACT	|String	|变异影响程度（HIGH/MODERATE/LOW/MODIFIER，与 SnpEff 兼容）|
+|IMPACT	|String	|变异影响程度（HIGH/MODERATE/LOW/MODIFIER）|
 # 注意事项
 文件格式兼容性：
 GFF 文件需为 GFF3 格式，染色体 ID（seqid）需与 GFA/FASTA 的参考名完全一致
