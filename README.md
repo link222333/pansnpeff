@@ -1,15 +1,20 @@
 # PanSnpEff: 泛基因组变异注释工具（支持 GFA 分支数统计）
-<img width="1696" height="1515" alt="介绍代码文件" src="https://github.com/user-attachments/assets/d6f00e15-4456-4924-9c7b-f61a108f90d8" />
-
+<div align="center">
+ <img width="400" height="400" alt="logo" src="https://github.com/user-attachments/assets/d6f00e15-4456-4924-9c7b-f61a108f90d8" />
+</div>
 
 A SnpEff-like variant annotation tool tailored for pan-genome analysis, supporting branch count statistics from GFA files and standard VCF output.
 # 项目简介
 PanSnpEff 是一款基于 Python 的变异注释工具，核心功能类似经典工具 SnpEff，但额外支持从泛基因组组装图（GFA 文件）中提取参考序列并统计基因区域的分支数，最终输出包含功能影响分级和分支结构信息的标准 VCF 文件，适用于泛基因组变异功能解析场景。
 # 核心价值
 兼容传统基因组（FASTA）和泛基因组（GFA）两种参考格式
+
 提供与 SnpEff 一致的变异影响程度分级（HIGH/MODERATE/LOW/MODIFIER）
+
 创新添加基因区域分支数（BRANCH_COUNT），关联变异与泛基因组结构多样性
+
 输出符合 VCFv4.2 规范，可直接用于下游分析（如 bcftools、IGV）
+
 # 核心功能
 - 参考序列提取	优先从 GFA 的 P/S 行提取泛基因组参考序列，FASTA 作为备选补充
 - GFF 基因结构解析	解析 gene/exon/CDS/transcript 等区域，构建染色体 - 基因 - 区域的层级索引
